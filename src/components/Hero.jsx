@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-black via-[#020314] to-[#071740] text-white overflow-hidden px-8 text-center">
@@ -23,12 +23,18 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-white text-black px-6 py-3 rounded-md shadow-md hover:bg-gray-200 transition-all font-semibold">
+            <Link
+              to="/contact"
+              className="bg-white text-black px-6 py-3 rounded-md shadow-md hover:bg-gray-200 transition-all font-semibold"
+            >
               Start Your Project
-            </button>
-            <button className="bg-blue-800 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-900 transition-all font-semibold">
+            </Link>
+            <Link
+              to="/about"
+              className="bg-blue-800 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-900 transition-all font-semibold"
+            >
               Why NexaForge?
-            </button>
+            </Link>
           </div>
         </motion.div>
       </div>

@@ -12,7 +12,7 @@ export default function App() {
     <div className="bg-dark text-white font-sans">
       <TawkToChat />
       <Routes>
-        {/* Assuming Home is a hero/landing page needing no padding */}
+        
         <Route
           path="/"
           element={
@@ -22,7 +22,7 @@ export default function App() {
           }
         />
 
-        {/* Other pages get padding to avoid navbar overlap */}
+        
         <Route
           path="/about"
           element={
@@ -57,7 +57,7 @@ export default function App() {
         />
       </Routes>
 
-      {/* Footer stays outside layout since it’s always visible below */}
+    
       
     </div>
   );

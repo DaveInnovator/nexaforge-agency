@@ -15,11 +15,11 @@ export default function TawkToChat() {
       s0.parentNode.insertBefore(s1, s0);
     })();
 
-    // Optional cleanup (if you want to remove script on unmount)
+
     return () => {
-      // You can remove the script if needed, but usually you keep it loaded
+      
     };
   }, []);
 
-  return null; // no UI, just injects the script
+  return null; 
 }

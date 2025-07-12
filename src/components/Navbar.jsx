@@ -58,12 +58,12 @@ export default function Navbar() {
               <Link to={link.to}>{link.label}</Link>
             </motion.div>
           ))}
-          <a
-            href="#"
-            className="bg-blue-700 hover:bg-blue-600 transition-colors text-white px-6 py-2 rounded-md shadow-md font-semibold"
-          >
-            Get In Touch
-          </a>
+                  <Link
+  to="/contact"
+  className="block w-full text-center bg-blue-700 hover:bg-blue-600 transition-colors px-5 py-3 rounded-md font-semibold"
+>
+  Get In Touch
+</Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -102,13 +102,12 @@ export default function Navbar() {
                 </Link>
               </motion.div>
             ))}
-            <a
-              href="#"
-              onClick={() => setIsOpen(false)}
-              className="block w-full text-center bg-blue-700 hover:bg-blue-600 transition-colors px-5 py-3 rounded-md font-semibold"
-            >
-              Get In Touch
-            </a>
+            <Link
+  to="/contact"
+  className="block w-full text-center bg-blue-700 hover:bg-blue-600 transition-colors px-5 py-3 rounded-md font-semibold"
+>
+  Get In Touch
+</Link>
           </motion.div>
         )}
       </AnimatePresence>

@@ -7,7 +7,7 @@ export default function Contact() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="max-w-xl mx-auto"
+        className="max-w-xl mx-auto  py-40"
       >
         <h2 className="text-4xl font-bold mb-6">Let’s Build Together</h2>
         <p className="text-gray-300 mb-8">

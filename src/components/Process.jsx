@@ -47,7 +47,7 @@ export default function Process() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.2 }}
-            className="relative rounded-xl bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-6 shadow-xl border border-white/10 hover:shadow-2xl transition-all duration-300"
+            className="relative  backdrop-blur-lg rounded-xl bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-6 shadow-xl border border-white/10 hover:shadow-2xl transition-all duration-300"
           >
             <div className="text-4xl mb-4">{step.icon}</div>
             <h3 className="text-xl font-bold mb-1">{step.title}</h3>

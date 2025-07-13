@@ -13,7 +13,7 @@ export default function Hero() {
             NEW &nbsp;•&nbsp; Trusted by Modern SaaS Brands
           </p>
 
-          <h1 className="text-5xl sm:text-6xl font-bold leading-tight mb-4">
+          <h1 className="text-3xl sm:text-6xl font-bold leading-tight mb-4">
             Scalable Web Solutions <br />
             <span className="text-blue-400">for SaaS & High-Growth Brands</span>
           </h1>

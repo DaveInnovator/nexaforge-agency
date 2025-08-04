@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Web Development for SaaS",
-    desc: "Scalable, high-performing platforms tailored for SaaS startups with clean, modular architecture.",
+    title: "Web Development for creators",
+    desc: "Scalable, high-performing platforms tailored for creators with clean, modular architecture.",
     icon: "🧠"
   },
   {
-    title: "Web Design for Businesses",
-    desc: "Conversion-driven websites that build trust, generate leads and help your business stand out.",
+    title: "Web Design for Brands",
+    desc: "Conversion-driven websites that build trust, generate leads and help your brand stand out.",
     icon: "💼"
   },
   {

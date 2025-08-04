@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "SaaS Landing Page",
-    desc: "Crafted for a B2B startup to showcase features and convert users.",
+    title: "Brand Landing Page",
+    desc: "Crafted for a brands to showcase features and convert users.",
     tag: "Web Design"
   },
   {
     title: "Business Website",
-    desc: "Responsive, SEO-ready website for a fintech brand.",
+    desc: "Responsive, SEO-ready website for personal brands.",
     tag: "Web Development"
   },
   {

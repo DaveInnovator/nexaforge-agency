@@ -1,21 +1,22 @@
 import { motion } from "framer-motion";
 
 const services = [
-  {
-    title: "SaaS Platform Development",
-    desc: "We engineer scalable, modular platforms built for SaaS growth — from MVP to enterprise-ready products.",
-    icon: "🧠",
-  },
-  {
-    title: "Conversion-First Web Design",
-    desc: "Strategic UI/UX and visual design tailored to generate leads, build trust, and drive business revenue.",
-    icon: "💼",
-  },
-  {
-    title: "End-to-End Product Launch",
-    desc: "From frontend polish to backend power — we deliver full-stack, launch-ready products fast.",
-    icon: "🚀",
-  },
+ {
+  title: "Creator-Focused Platforms",
+  desc: "We build scalable digital products and personal brand sites for creators ready to launch courses, communities, and more — no tech headaches.",
+  icon: "🧠",
+},
+{
+  title: "Design That Converts",
+  desc: "We blend bold design with buyer psychology to turn clicks into clients — whether it's a funnel, sales page, or full brand site.",
+  icon: "💼",
+},
+{
+  title: "Launch-Ready from Day One",
+  desc: "Need to drop a course, product, or membership fast? We handle everything from design to dev so you're ready to sell on day one.",
+  icon: "🚀",
+}
+
 ];
 
 export default function Services() {
@@ -24,7 +25,7 @@ export default function Services() {
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold">Our Core Services</h2>
         <p className="text-gray-400 mt-4">
-          Purpose-built solutions for SaaS startups and fast-moving businesses
+          Purpose-built solutions for brands and creators
         </p>
       </div>
 

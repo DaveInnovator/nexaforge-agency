@@ -81,7 +81,7 @@ export default function About() {
       >
         <h3 className="text-3xl font-semibold mb-4 text-blue-400">Our Mission</h3>
         <p className="text-gray-300 text-lg italic">
-          To arm ambitious startups and digital-first businesses with unfair advantages on the web — through exceptional design, code, and execution.
+          To arm ambitious creators and digital-first brandswith unfair advantages on the web — through exceptional design, code, and execution.
         </p>
       </motion.div>
 

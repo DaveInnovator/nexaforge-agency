@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Process from "../components/Process";
 import Services from "../components/Services";
+import Portfolio from "../components/portfolio";
 import { Helmet } from 'react-helmet'
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Process />
       <Features />
       <Services />
+      <Portfolio />
     </>
   );
 }

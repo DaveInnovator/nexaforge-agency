@@ -27,6 +27,7 @@ export default function Navbar() {
     { label: "About", to: "/about" },
  
     { label: "Contact", to: "/contact" },
+    { label: "Portfolio", to: "/portfolio" },
   ];
 
   return (

@@ -1,23 +1,39 @@
 import { motion } from "framer-motion";
 
-
 const steps = [
   {
-    title: "Kickoff & Discovery",
+    title: "Discovery & Strategy",
     stage: "Step 1",
-    description: "We start with a strategy call to align on your product, users, and goals. No fluff — just clarity.",
+    description:
+      "We kick things off with a deep dive into your goals, audience, and brand. Together, we define the roadmap for a high-impact website.",
     icon: "🧭",
   },
   {
-    title: "Design & Prototype",
+    title: "Design & Prototyping",
     stage: "Step 2",
-    description: "From low-fidelity wireframes to final UI, we build clean, conversion-focused designs your users will love.",
-    icon: "🖌️",
+    description:
+      "Our team crafts wireframes and sleek UI designs that balance creativity with usability, ensuring a frictionless user journey.",
+    icon: "🎨",
   },
   {
-    title: "Build & Launch",
+    title: "Development & Integration",
     stage: "Step 3",
-    description: "We develop, test, and ship a performant, scalable product — fast. Then monitor for success.",
+    description:
+      "We bring designs to life with clean, scalable code — building responsive websites, e-commerce stores, or custom web apps tailored to you.",
+    icon: "💻",
+  },
+  {
+    title: "Testing & Optimization",
+    stage: "Step 4",
+    description:
+      "Before launch, we run performance checks, QA testing, and SEO optimizations so your website is fast, secure, and ready to rank.",
+    icon: "⚡",
+  },
+  {
+    title: "Launch & Ongoing Support",
+    stage: "Step 5",
+    description:
+      "We deploy your site with confidence and provide continuous support, updates, and growth strategies to keep you ahead.",
     icon: "🚀",
   },
 ];
@@ -33,10 +49,10 @@ export default function Process() {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold"
         >
-          How It Works
+          Our Process
         </motion.h2>
         <p className="text-gray-400 mt-4 text-lg">
-          From kickoff to launch, we keep it lean, fast, and focused on outcomes.
+          A proven, step-by-step approach to delivering high-performance websites and web apps.
         </p>
       </div>
 
@@ -47,8 +63,8 @@ export default function Process() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.2 }}
-            className="relative  backdrop-blur-lg rounded-xl bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-6 shadow-xl border border-white/10 hover:shadow-2xl transition-all duration-300"
+            transition={{ duration: 0.5, delay: i * 0.15 }}
+            className="relative backdrop-blur-lg rounded-xl bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-6 shadow-xl border border-white/10 hover:shadow-2xl transition-all duration-300"
           >
             <div className="text-4xl mb-4">{step.icon}</div>
             <h3 className="text-xl font-bold mb-1">{step.title}</h3>

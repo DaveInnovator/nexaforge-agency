@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 
 const values = [
-  "Speed is non-negotiable — we deliver fast, always.",
-  "Code that scales, so your growth never stalls.",
-  "Design with purpose — every pixel earns its place.",
-  "Your vision, our execution — no fluff, just results.",
+  "Speed is non-negotiable — we ship fast without compromising quality.",
+  "Scalable solutions built with clean, future-proof code.",
+  "Design with intent — every interaction has purpose and impact.",
+  "Collaboration first — your vision, our expertise, one outcome: results.",
 ];
 
 const tools = [
-  "HTML", "CSS", "JavaScript", "WordPress", "Framer", "React", "AI Tools"
+  "HTML", "CSS", "JavaScript", "React", "Next.js", "WordPress", "Framer", "Tailwind CSS", "AI Tools"
 ];
 
 export default function About() {
@@ -17,15 +17,15 @@ export default function About() {
     <section className="pt-20 mt-15 px-6 py-24 bg-black text-white text-center space-y-24">
       {/* SEO */}
       <Helmet>
-        <title>About NexaForge – Your Elite Web Launch Partner</title>
+        <title>About NexaForge – Modern Web Development Agency</title>
         <meta
           name="description"
-          content="Discover NexaForge's mission, values, and why we’re obsessed with building fast, bold, and scalable websites for modern startups."
+          content="Learn about NexaForge's mission, values, and expertise in building fast, scalable, and conversion-driven websites for startups and businesses."
         />
-        <meta property="og:title" content="About NexaForge – Your Elite Web Launch Partner" />
+        <meta property="og:title" content="About NexaForge – Modern Web Development Agency" />
         <meta
           property="og:description"
-          content="We’re a web agency built for builders — lean, modern, and obsessed with quality."
+          content="We’re a web agency obsessed with speed, scalability, and flawless execution — helping startups and businesses thrive online."
         />
         <meta property="og:image" content="https://nexaforge.pxxl.click/social-preview.png" />
       </Helmet>
@@ -40,10 +40,12 @@ export default function About() {
       >
         <h2 className="text-4xl font-bold mb-6">Who We Are</h2>
         <p className="text-gray-300 text-lg mb-4">
-          NexaForge is a creative execution partner for high-growth startups and digital-first businesses. We craft lightning-fast, scalable, and conversion-optimized platforms — with pixel-perfect UI and production-grade code.
+          NexaForge is a modern web development agency built for ambitious startups, growing businesses, and forward-thinking enterprises. 
+          We deliver lightning-fast, scalable, and conversion-optimized websites that don’t just look good — they perform.
         </p>
         <p className="text-gray-400">
-          Whether you're launching your first MVP or leveling up your current product, our designers, developers, and strategists turn ideas into impact — fast. We don’t just ship websites. We ship leverage.
+          From strategy and design to full-stack development and optimization, our team transforms your ideas into 
+          powerful digital platforms. We don’t just launch websites — we launch growth engines.
         </p>
       </motion.div>
 
@@ -81,7 +83,7 @@ export default function About() {
       >
         <h3 className="text-3xl font-semibold mb-4 text-blue-400">Our Mission</h3>
         <p className="text-gray-300 text-lg italic">
-          To arm ambitious creators and digital-first brandswith unfair advantages on the web — through exceptional design, code, and execution.
+          To empower startups and businesses with high-performance websites and digital platforms that scale, convert, and dominate in competitive markets.
         </p>
       </motion.div>
 
@@ -93,7 +95,7 @@ export default function About() {
         viewport={{ once: true }}
         className="max-w-4xl mx-auto text-center"
       >
-        <h3 className="text-3xl font-semibold mb-6 text-blue-400">Tools We Use</h3>
+        <h3 className="text-3xl font-semibold mb-6 text-blue-400">Technologies We Use</h3>
         <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-200">
           {tools.map((tool, i) => (
             <motion.span
@@ -119,7 +121,7 @@ export default function About() {
         className="max-w-3xl mx-auto"
       >
         <h2 className="text-2xl font-extrabold text-blue-400">
-          We don’t just build websites — we build the infrastructure for your business to grow, scale, and dominate.
+          We don’t just build websites — we build the digital infrastructure that powers growth.
         </h2>
       </motion.div>
     </section>

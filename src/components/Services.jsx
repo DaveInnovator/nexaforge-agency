@@ -1,22 +1,31 @@
 import { motion } from "framer-motion";
 
 const services = [
- {
-  title: "Creator-Focused Platforms",
-  desc: "We build scalable digital products and personal brand sites for creators ready to launch courses, communities, and more — no tech headaches.",
-  icon: "🧠",
-},
-{
-  title: "Design That Converts",
-  desc: "We blend bold design with buyer psychology to turn clicks into clients — whether it's a funnel, sales page, or full brand site.",
-  icon: "💼",
-},
-{
-  title: "Launch-Ready from Day One",
-  desc: "Need to drop a course, product, or membership fast? We handle everything from design to dev so you're ready to sell on day one.",
-  icon: "🚀",
-}
-
+  {
+    title: "Custom Website Development",
+    desc: "We build responsive, scalable websites that reflect your brand and drive measurable results — from business sites to SaaS platforms.",
+    icon: "💻",
+  },
+  {
+    title: "E-Commerce Solutions",
+    desc: "From product pages to checkout flows, we design and develop secure, conversion-focused online stores optimized for growth.",
+    icon: "🛒",
+  },
+  {
+    title: "Performance & Optimization",
+    desc: "We fine-tune websites for speed, SEO, and scalability — ensuring your site loads fast, ranks high, and grows with your business.",
+    icon: "⚡",
+  },
+  {
+    title: "UI/UX Design",
+    desc: "Clean, modern, and user-friendly designs built with conversion in mind. We craft experiences your customers actually enjoy.",
+    icon: "🎨",
+  },
+  {
+    title: "Ongoing Support & Maintenance",
+    desc: "Beyond launch, we provide continuous updates, security patches, and feature improvements to keep your site future-ready.",
+    icon: "🔧",
+  },
 ];
 
 export default function Services() {
@@ -25,7 +34,7 @@ export default function Services() {
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold">Our Core Services</h2>
         <p className="text-gray-400 mt-4">
-          Purpose-built solutions for brands and creators
+          Full-stack web solutions designed to help businesses grow online
         </p>
       </div>
 
@@ -35,9 +44,9 @@ export default function Services() {
             key={i}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: i * 0.2 }}
+            transition={{ duration: 0.5, delay: i * 0.15 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-xl border border-slate-700"
+            className="bg-gradient-to-br from-slate-800 to-slate-900 p-6 rounded-xl border border-slate-700 hover:shadow-xl transition-all"
           >
             <div className="text-4xl mb-4">{srv.icon}</div>
             <h3 className="text-xl font-semibold mb-2">{srv.title}</h3>

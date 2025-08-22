@@ -27,7 +27,7 @@ export default function About() {
           property="og:description"
           content="We’re a web agency obsessed with speed, scalability, and flawless execution — helping startups and businesses thrive online."
         />
-        <meta property="og:image" content="https://nexaforge.pxxl.click/social-preview.png" />
+        <meta property="og:image" content="/https://nexaforge.pxxl.live/assets/nexa-DXdIke4O.png" />
       </Helmet>
 
       {/* Intro */}
